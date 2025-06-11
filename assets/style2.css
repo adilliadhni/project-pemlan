@@ -1,0 +1,127 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #fff; /* dominan putih */
+  color: #222;
+  line-height: 1.5;
+  padding: 20px 0;
+}
+
+header {
+  background-color: #e3f2fd; /* biru muda sangat soft sebagai aksen */
+  color: #0d47a1; /* biru navy untuk teks header */
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #bbdefb;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+input[type="text"], select, button {
+  width: 100%;
+  padding: 10px 12px;
+  margin: 10px 0;
+  border: 1.5px solid #90caf9; /* biru muda sebagai border */
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.25s ease;
+}
+
+input[type="text"]:focus, select:focus {
+  border-color: #42a5f5;
+  outline: none;
+}
+
+button {
+  background-color: #42a5f5; /* biru sedang */
+  border: none;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 3px 6px rgba(66, 165, 245, 0.4);
+}
+
+button:hover {
+  background-color: #1e88e5;
+  transform: scale(1.05);
+  box-shadow: 0 5px 10px rgba(30, 136, 229, 0.6);
+}
+
+.filters input {
+  width: 48%;
+  margin-right: 4%;
+  margin-bottom: 12px;
+  border: 1.5px solid #90caf9;
+  border-radius: 6px;
+  padding: 8px 10px;
+  font-size: 0.95rem;
+  transition: border-color 0.25s ease;
+}
+
+.filters input:last-child {
+  margin-right: 0;
+}
+
+.filters input:focus {
+  border-color: #42a5f5;
+  outline: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+thead {
+  background-color: #e3f2fd;
+}
+
+th, td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #bbdefb;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+tr:hover {
+  background-color: #f1f9ff;
+  transition: background-color 0.25s ease;
+}
+
+td button {
+  background-color: #64b5f6;
+  border: none;
+  color: white;
+  padding: 7px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 2px 6px rgba(100, 181, 246, 0.4);
+}
+
+td button:hover {
+  background-color: #1e88e5;
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(30, 136, 229, 0.6);
+}
