@@ -5,14 +5,8 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
-      <!-- style css -->
-
-      <!-- style 1 -->
       <link rel="stylesheet" href="assets/style.css" />
-      <!-- style 2 -->
-      <!-- <link rel="stylesheet" href="assets/style2.css" /> -->
-      <!-- <title>Hammington Library</title>
+      <title>Hammington Library</title>
       <style>
          * {
             /* font-family: ; */
@@ -91,8 +85,9 @@
          .filters input:last-child {
             margin-right: 0;
          }
-      </style> -->
+      </style>
    </head>
+\
    <body>
       <header>
          <div>
@@ -119,23 +114,6 @@
          <hr />
          <!-- Filter -->
          <div class="filters">
-
-            <input
-               type="text"
-               id="search-code"
-               placeholder="Cari berdasarkan Kode Buku"
-            />
-            <input
-               type="text"
-               id="search-title"
-               placeholder="Cari berdasarkan Judul"
-            />
-            <input
-               type="text"
-               id="search-author"
-               placeholder="Cari berdasarkan Penulis"
-            />
-
             <input type="text" id="search-code" placeholder="Cari berdasarkan Kode Buku" />
             <input type="text" id="search-title" placeholder="Cari berdasarkan Judul" />
             <input type="text" id="search-author" placeholder="Cari berdasarkan Penulis" />
@@ -159,14 +137,9 @@
          </table>
       </div>
 
-      <script type="module" src="/scripts/main.js"></script>
-      <!-- // Book.js (modul terpisah)
-         export class Book {
-=======
       <script type="module">
          // Book.js (modul terpisah)
          class Book {
->>>>>>> 1fad93d05a72aca58e70724c8f46dba12e6fa16f
              static totalBooks = 0; // Static property untuk menghitung total buku
              
              constructor(title, author, category, type) {
@@ -268,9 +241,6 @@
                  }
              });
          }
-<<<<<<< HEAD
-      </script> -->
       </script>
-
    </body>
 </html>
