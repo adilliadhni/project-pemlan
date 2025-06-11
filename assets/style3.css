@@ -1,0 +1,127 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #def8ff;
+    padding: 25px 0;
+    text-align: center;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #005066;
+}
+
+header h3 {
+    margin-top: 5px;
+    font-weight: normal;
+    color: #005066;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+    background-color: #def8ff;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+form input,
+form select {
+    padding: 12px;
+    font-size: 1em;
+    border: 1px solid #b6e6f2;
+    border-radius: 6px;
+    background-color: #ffffff;
+}
+
+form button {
+    padding: 12px;
+    font-size: 1em;
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #00a3bb;
+}
+
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.filters input {
+    flex: 1 1 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+table thead {
+    background-color: #def8ff;
+    color: #004e5e;
+}
+
+table th,
+table td {
+    padding: 14px;
+    border: 1px solid #e0e0e0;
+    text-align: left;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f8fafd;
+}
+
+table tbody tr:hover {
+    background-color: #e8f9ff;
+}
+
+button {
+    padding: 7px 14px;
+    background-color: #ff5f5f;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e14e4e;
+}
