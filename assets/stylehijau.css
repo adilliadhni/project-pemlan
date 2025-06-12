@@ -1,0 +1,173 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #A7C1A8;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header h3 {
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 900px;
+  background-color: #fff;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+}
+
+/* Form input */
+form input[type="text"],
+form select,
+form button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form select:focus {
+  border-color: #A7C1A8;
+  outline: none;
+}
+
+form button {
+  background-color: #A7C1A8;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background-color: #90b395;
+}
+
+/* Filter */
+.filters {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.filters input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Tabel Buku */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  padding: 14px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+table th {
+  background-color: #f7f7f7;
+  color: #444;
+}
+
+table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+table button {
+  background-color: #ff6b6b;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+table button:hover {
+  background-color: #e64a4a;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #A7C1A8;
+  color: white;
+  font-size: 0.9rem;
+  margin-top: 40px;
+  border-top: 2px solid #93b29a;
+}
+
+/* Responsif untuk layar kecil */
+@media (max-width: 600px) {
+  .container {
+    width: 95%;
+    padding: 15px;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header h3 {
+    font-size: 1rem;
+  }
+
+  table th, table td {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+
+  form input[type="text"],
+  form select,
+  form button {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+
+  .filters {
+    flex-direction: column;
+  }
+
+  .filters input {
+    width: 100%;
+  }
+}
